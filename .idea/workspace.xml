@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cb55911-60de-492a-a4bd-19d6c4de01fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ContainerMostWater_11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IsSubsequence_392.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LongestSubstringKdistinct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimumConsecutiveCards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubArrayProductLessThanK_713.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubarraySumEqualsK_560.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThreeSum_15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoSum_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countingElements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EqualRowPairs_2352.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaximumSum_2342.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -58,6 +52,7 @@
     "Python.IncreasingTripletSubsequence_334.executor": "Debug",
     "Python.IsSubsequence_392.executor": "Debug",
     "Python.LongestSubstringKdistinct.executor": "Debug",
+    "Python.MaximumSum_2342.executor": "Debug",
     "Python.MinimumConsecutiveCards.executor": "Debug",
     "Python.MoveZero_283.executor": "Debug",
     "Python.ProductOfArrayExceptSelf_238.executor": "Debug",
@@ -71,7 +66,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.MinimumConsecutiveCards">
+  <component name="RunManager" selected="Python.MaximumSum_2342">
     <configuration name="LongestSubstringKdistinct" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode 75" />
       <option name="ENV_FILES" value="" />
@@ -86,6 +81,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LongestSubstringKdistinct.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumSum_2342" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode 75" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MaximumSum_2342.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,35 +199,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TwoSum_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode 75" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwoSum_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MaximumSum_2342" />
         <item itemvalue="Python.MinimumConsecutiveCards" />
         <item itemvalue="Python.LongestSubstringKdistinct" />
         <item itemvalue="Python.ThreeSum_15" />
         <item itemvalue="Python.SubarraySumEqualsK_560" />
-        <item itemvalue="Python.TwoSum_1" />
       </list>
     </recent_temporary>
   </component>
@@ -314,6 +309,21 @@
           <url>file://$PROJECT_DIR$/MinimumConsecutiveCards.py</url>
           <line>22</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MaximumSum_2342.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MaximumSum_2342.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/EqualRowPairs_2352.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
